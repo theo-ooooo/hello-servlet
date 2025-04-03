@@ -1,14 +1,11 @@
 package hello.servlet.domain.member;
 
-import hello.servlet.domain.Member;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class MemberRepositoryTest {
     MemberRepository memberRepository = MemberRepository.getInstance();
